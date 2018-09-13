@@ -1,14 +1,14 @@
 {
   "name": "commonjs-modules",
   "version": "1.0.0",
-  "description": "![CF](http://i.imgur.com/7v5ASc8.png) 03: Asynchronous Callbacks ===",
+  "description": "",
   "main": "main.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "eslint . && jest --coverage",
-    "lint": "eslint **/.js."
+    "test": "jest --coverage",
+    "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -20,12 +20,7 @@
     "eslint-plugin-jest": "^21.22.0",
     "jest": "^23.6.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashabrai/03-async-and-callbacks.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ashabrai/03-async-and-callbacks/issues"
-  },
-  "homepage": "https://github.com/ashabrai/03-async-and-callbacks#readme"
+  "dependencies": {
+    "ajv": "^6.5.3"
+  }
 }
